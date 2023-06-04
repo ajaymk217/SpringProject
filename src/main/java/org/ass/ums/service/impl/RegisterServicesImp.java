@@ -26,8 +26,6 @@ public class RegisterServicesImp implements  RegisterService {
 
 	@Override
 	public @ResponseBody List<RegisterEntity> getAllUser() {
-
-		
 		return registerRepository.findAllUsers();
 	}
 	
